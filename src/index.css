@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* --background-color:white;
+    --text-color: black;
+    --elements-color: white; */
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main,
+header {
+    /* background-color: var(--background-color);
+    color: var(--text-color); */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-background: 255, 255, 255;
+        --color-primary-blue: 227, 245, 255;
+        --color-primary-light: 247, 249, 251;
+        --color-primary-purple: 229, 236, 246;
+        --color-secondary-cyan: 168, 197, 218;
+        --color-secondary-indigo: 149, 164, 252;
+        --color-primary-brand: 28, 28, 28;
+        --color-secondary-mint: 186, 237, 189;
+        --color-secondary-blue: 177, 227, 255;
+        /* ... */
+    }
+}
